@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: learning-spring-boot
+
+logging:
+  level:
+    io.netty: INFO
+    reactor.core: TRACE
+    reactor.util: TRACE
+    org.springframework.data: TRACE
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
