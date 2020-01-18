@@ -11,6 +11,9 @@ logging:
 
 
 management:
+  info:
+    git:
+      mode: full
   endpoints:
     web:
       exposure:
